@@ -1,0 +1,19 @@
+{
+    "companyname": "companyname",
+    "companyteam": "companyteam",
+    "companyemail": "support@companyemail.com",
+    "logs_dir": "./logs",
+    "mails_dir_inbox": "/home/box/Maildir/new",
+    "mails_dir_spam": "./mails/spam",
+    "mails_dir_error": "./mails/error",
+    "bd_login": "login",
+    "bd_password": "password",
+    "bd_dialect": "mysql",
+    "bd_host": "localhost",
+    "bd_port": "3306",
+    "server_email": {"support": "support@companyemail.com", "privacy": "privacy@companyemail.com", "noreply": "noreply@companyemail.com"},
+    "imap_host": "imap_host",
+    "imap_port": 999,
+    "imap_user": "noreply@companyemail.com",
+    "imap_password": "password"
+}

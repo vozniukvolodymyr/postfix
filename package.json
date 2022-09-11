@@ -1,0 +1,31 @@
+{
+  "name": "backoffice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "prod": "nodemon app.js",
+    "devall": "set NODE_ENV=development&&set DEBUG=*&&nodemon app.js",
+    "devserver": "set NODE_ENV=development&&set DEBUG=mysql,server&&nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.15",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "chokidar": "^3.5.1",
+    "debug": "^4.3.1",
+    "handlebars": "^4.7.7",
+    "mailparser": "^3.2.0",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.6.1",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-security": "^1.4.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
